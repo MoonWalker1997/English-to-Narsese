@@ -3,8 +3,7 @@
 """
 Created on Sun Dec 12 18:26:39 2021
 
-@author: Tangrui Li (tuo90515@temple.edu, litangrui.tori@gmail.com)
-@author: Hongzheng Wang (tuf78197@temple.edu, hongzheng.wang@temple.edu)
+@author: Tangrui Li (tuo90515@temple.edu, litangrui.tori@gmail.com), Hongzheng Wang (hongzheng.wang@temple.edu)
 """
 
 import re
