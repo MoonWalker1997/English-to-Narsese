@@ -390,8 +390,8 @@ def no_translate(s_temp):
 def bubble_sort(dp):
     # sort the dp according to the increasing distance between two words
     # a temporary fix to avoid missing translate like "A is B"
-    for i in range(len(dp)):
-        for j in range(len(dp) - 1):
+    for i in range(len(dp) - 1):
+        for j in range(len(dp) - i - 1):
             if abs(dp[j][2] - dp[j][1]) > abs(dp[j + 1][2] - dp[j + 1][1]):
                 dp[j], dp[j + 1] = dp[j + 1], dp[j]
 
