@@ -29,9 +29,22 @@ Note that this script does not include an OpenNARS agent; it is only for transla
 
 # Usage
 
-English to Narsese beta 1.0 is an IDLE (e.g. Spyder) based script for debugging purposes. It is not currently suitable to run on terminals. 
+This script can be run using IDE or terminal. It will receive the input cyclically. 
+Again, it is recommended to input the sentences one by one. 
+
+You can use pipe to feed the translated Narsese into an OpenNARS client, like:  
+```
+python English_to_Narsese_beta_1_0.py | java -jar opennars-v3.1.2.jar
+```
+The current OpenNARS is version 3.1.2 (https://github.com/opennars/opennars_v3.1.2). 
 
 
+If you input a sentence with an asterisk (*) at the beginning, the script will just output the original sentence without the asterisk. 
+You can use this to feed Narsese sentence when running this script and OpenNARS together without unnecessary translation. 
+For example: 
+```
+*<Bird --> swimmer>. 
+```
 
 # Appendix
 
